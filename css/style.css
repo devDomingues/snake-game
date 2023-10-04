@@ -5,15 +5,15 @@
 }
 
 body {
+    background-color: #191919;
     display: flex;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #333;
+    color: #fff;
 }
 
 canvas {
-    width: 500px;
-    height: 500px;
-    background-color: #000;
+    background-color: #111;
 }
