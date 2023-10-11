@@ -8,8 +8,36 @@
     <title>Snake-Game</title>
 </head>
 <body>
+    <div class="score">00</div>
     <canvas width="600" height="600"></canvas>
-    <audio src="./assets/collect-retro.mp3" class="audio"></audio>
-
+    
+    <div class="menu initial">
+        <h1>Snake-Game</h1>
+        <div class="btn start">Iniciar</div>
+        <div class="config">
+            <div class="box">
+                Dificuldade
+                <div class="buttons">
+                    <div class="left">❮</div>
+                    <span class="difficulty">normal</span>
+                    <div class="right">❯</div>
+                </div>
+            </div>
+            <div class="box">
+                Audio
+                <div class="sound">
+                    <img src="./assets/audio.png" class="audio on">
+                    <img src="./assets/audio-off.png" class="audio muted off">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menu game-over">
+        <h1>Você Perdeu!</h1>
+        <div class="final-score">Score: <span>00</span></div>
+        <div class="btn lobby">Voltar para o menu Inicial</div>
+        <div class="btn restart">Reiniciar</div>
+    </div>
 </body>
 </html>
